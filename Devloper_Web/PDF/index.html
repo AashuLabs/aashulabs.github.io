@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the PDF Android application (com.pdf.manager).">
+  <title>PDF - Privacy Policy — Aashu_Labs</title>
+  <style>
+    /* ── Design Tokens (shared palette) ── */
+    :root {
+      --page:    #f0f4fa;
+      --card:    #ffffff;
+      --ink:     #172744;
+      --muted:   #53647d;
+      --subtle:  #8295ad;
+      --line:    #dce8f5;
+      --accent:  #2563eb;
+      --radius:  18px;
+      --shadow:  0 4px 24px rgba(37,99,235,.09);
+      --font:    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--page);
+      color: var(--ink);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── Site Header ── */
+    .site-header {
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: -.2px;
+    }
+    .brand span { color: var(--accent); }
+
+    .home-link {
+      font-size: .88rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color .2s;
+    }
+    .home-link:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── Main content card ── */
+    main {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 16px 40px;
+    }
+
+    .policy-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(28px, 5vw, 52px);
+    }
+
+    /* ── Typography ── */
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1.2;
+      margin-bottom: 16px;
+      letter-spacing: -.4px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 32px 0 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    p { color: var(--muted); margin: 8px 0 14px; }
+
+    /* ── Meta info block ── */
+    .meta {
+      margin: 0 0 28px;
+      padding: 16px 18px;
+      background: #edf6ff;
+      border-radius: 12px;
+      border: 1px solid #bfdbfe;
+    }
+    .meta p { color: var(--ink); margin: 4px 0; font-size: .9rem; overflow-wrap: anywhere; }
+
+    /* ── Policy lists and notes ── */
+    ul {
+      margin: 8px 0 20px;
+      padding: 16px 18px 16px 40px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+    li { color: var(--muted); margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    .footer-note {
+      margin-top: 40px;
+      padding: 22px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    /* ── Sections ── */
+    section + section { margin-top: 4px; }
+
+    /* ── Footer ── */
+    .site-footer {
+      border-top: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .footer-copy { font-size: .82rem; color: var(--subtle); }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      font-size: .82rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      main { margin: 0; padding: 0 0 32px; }
+      .policy-card { border-radius: 0; border-left: 0; border-right: 0; box-shadow: none; }
+      .header-inner { padding: 0 16px; }
+      .footer-inner { padding: 16px; flex-direction: column; align-items: flex-start; }
+      ul { padding-left: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">Aashu_<span>Labs</span></a>
+      <a class="home-link" href="../">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/></svg>
+        Home
+      </a>
+    </div>
+  </header>
+
+  <!-- Policy Content -->
+  <main>
+    <article class="policy-card">
+
+      <header>
+        <h1>PDF - Privacy Policy</h1>
+        <div class="meta">
+          <p><strong>App:</strong> PDF</p>
+          <p><strong>Developer:</strong> Aashu_Labs</p>
+          <p><strong>Package:</strong> com.pdf.manager</p>
+          <p><strong>Effective date:</strong> September 25, 2026</p>
+          <p><strong>Contact:</strong> <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a></p>
+        </div>
+      </header>
+
+      <section><h2>1. Privacy Policy</h2><p>This Privacy Policy applies to the Android application PDF (package com.pdf.manager).</p></section>
+      <section><h2>2. Overview</h2><p>PDF is a document and PDF utility that provides PDF viewing, PDF creation, merging, splitting, compression, conversion, document scanning, OCR, editing and organizing pages, signing, watermarking, document conversion, and related tools. Most document processing is performed locally on your device. Some features use network-connected platform or third-party services as described below.</p></section>
+      <section><h2>3. Files and Documents</h2><p>The app accesses files and documents that you select or create to perform the operation you request. Document contents are processed locally unless you intentionally use a network-related feature such as URL to PDF or interact with an external service. Output files may be saved to locations you choose or to app-created folders such as Documents/PDF and Pictures/PDF. The developer does not operate a document-upload server for this app.</p></section>
+      <section><h2>4. Camera</h2><p>Camera permission is used for Scan to PDF and document-scanning functionality. Camera access is used only when you invoke a scanning feature. The app does not request permanent or background camera access.</p></section>
+      <section><h2>5. Storage / Files</h2><p>The app uses Android file and document APIs, including MediaStore and the Storage Access Framework where applicable, to open, create, edit, share, and save documents. Legacy Android storage permissions apply only on older Android versions where required by the platform.</p></section>
+      <section><h2>6. OCR and Document Scanning</h2><p>OCR and document scanning use Google ML Kit and Google Play services components. Document and OCR processing is intended to occur on-device through those components. Google Play services may download or update required machine-learning components. Google services are governed by Google's applicable privacy terms.</p></section>
+      <section><h2>7. URL to PDF / Internet Access</h2><p>The app includes a URL-to-PDF feature. When you manually enter a website URL and request conversion, Android WebView connects to that website to load its content. The website may receive normal network information such as your IP address, browser or WebView request information, and cookies depending on the site. The third-party website's own privacy policy applies to that interaction. The developer does not operate a proxy server for this feature.</p></section>
+      <section><h2>8. Local App Data</h2><p>Settings, preferences, recent-file or operation-history information, and app state may be stored locally using Android local storage, Room, and DataStore as used by the application. The app does not provide cloud sync and currently has no developer-operated account or login service.</p></section>
+      <section><h2>9. Android Backup</h2><p>The app allows Android backup. App-internal data and settings may be included in Android backup or device-transfer mechanisms when enabled by you or your device. These backups are controlled by the Android platform and your selected backup provider; the app developer does not personally receive them.</p></section>
+      <section><h2>10. Google Play In-App Review</h2><p>The app uses Google Play's in-app review functionality. Local usage information may be used on the device to decide when to offer a review prompt. Interaction with Google Play is subject to Google's applicable terms and privacy practices.</p></section>
+      <section><h2>11. Support and Feedback</h2><p>When you voluntarily choose Feature Request or Bug Report, the app opens an email flow addressed to <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>. The prepared email may contain text you enter, the device manufacturer and model, Android version, and app version. The email is sent only after your action through your email application; it is not automatically uploaded by the app.</p></section>
+      <section><h2>12. Advertising and Analytics</h2><p>The app does not currently include advertising SDKs, Firebase Analytics, Crashlytics, or developer-operated analytics tracking. Local app usage state used for app functionality, such as in-app review eligibility, is not sent to a developer analytics service by this app.</p></section>
+      <section><h2>13. Data Sharing</h2><p>The developer does not sell user documents or personal information. Information may be handled by external services only when needed for the relevant user-requested function, such as loading a website, using Google Play services, sending an email, or sharing a document with an app you select.</p></section>
+      <section><h2>14. Data Retention</h2><p>Documents created by the app remain on your device or chosen storage until you delete them. Cached and temporary files may be removed by the app. Local app data can generally be removed by clearing app storage or uninstalling the app. Emails voluntarily sent to support may be retained only as reasonably necessary to respond to the request and maintain support records.</p></section>
+      <section><h2>15. Data Deletion</h2><p>Because the app has no user account service, there is no online account database that requires an account-deletion system. You can delete generated documents yourself and clear app data or uninstall the app to remove locally stored app data. For privacy requests relating to support email, contact <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>.</p></section>
+      <section><h2>16. Security</h2><p>The app uses reasonable Android platform security practices, including scoped or user-selected file access and FileProvider for secure sharing where applicable. No method of storage or transfer is perfectly secure, so absolute security cannot be guaranteed.</p></section>
+      <section><h2>17. Third-Party Services</h2><p>Depending on the feature you use, the app interacts with Google Play services, Google ML Kit, Google Play In-App Review, Android WebView, and third-party websites that you select. Those services are governed by their own applicable terms and privacy policies.</p></section>
+      <section><h2>18. Changes to This Privacy Policy</h2><p>This Privacy Policy may be updated when app functionality, service usage, or legal requirements change. The effective date shown above will be updated when material changes are made.</p></section>
+      <section><h2>19. Contact</h2><p>For privacy questions or requests, contact <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>.</p></section>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 Aashu_Labs</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../">&#8592; Back to Home</a>
+        <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>

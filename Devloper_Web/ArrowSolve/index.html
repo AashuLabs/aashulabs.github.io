@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for the ArrowSolve mobile application by Aashu_Labs.">
+  <title>ArrowSolve - Privacy Policy — Aashu_Labs</title>
+  <style>
+    /* ── Design Tokens (shared palette) ── */
+    :root {
+      --page:    #f0f4fa;
+      --card:    #ffffff;
+      --ink:     #172744;
+      --muted:   #53647d;
+      --subtle:  #8295ad;
+      --line:    #dce8f5;
+      --accent:  #2563eb;
+      --radius:  18px;
+      --shadow:  0 4px 24px rgba(37,99,235,.09);
+      --font:    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--page);
+      color: var(--ink);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── Site Header ── */
+    .site-header {
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: -.2px;
+    }
+    .brand span { color: var(--accent); }
+
+    .home-link {
+      font-size: .88rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color .2s;
+    }
+    .home-link:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── Main content card ── */
+    main {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 16px 40px;
+    }
+
+    .policy-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(28px, 5vw, 52px);
+    }
+
+    /* ── Typography ── */
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1.2;
+      margin-bottom: 16px;
+      letter-spacing: -.4px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 32px 0 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    p { color: var(--muted); margin: 8px 0 14px; }
+
+    /* ── Meta info block ── */
+    .meta {
+      margin: 0 0 28px;
+      padding: 16px 18px;
+      background: #edf6ff;
+      border-radius: 12px;
+      border: 1px solid #bfdbfe;
+    }
+    .meta p { color: var(--ink); margin: 4px 0; font-size: .9rem; overflow-wrap: anywhere; }
+
+    /* ── Policy lists and notes ── */
+    ul {
+      margin: 8px 0 20px;
+      padding: 16px 18px 16px 40px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+    li { color: var(--muted); margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    .footer-note {
+      margin-top: 40px;
+      padding: 22px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    /* ── Sections ── */
+    section + section { margin-top: 4px; }
+
+    /* ── Footer ── */
+    .site-footer {
+      border-top: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .footer-copy { font-size: .82rem; color: var(--subtle); }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      font-size: .82rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      main { margin: 0; padding: 0 0 32px; }
+      .policy-card { border-radius: 0; border-left: 0; border-right: 0; box-shadow: none; }
+      .header-inner { padding: 0 16px; }
+      .footer-inner { padding: 16px; flex-direction: column; align-items: flex-start; }
+      ul { padding-left: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../">Aashu_<span>Labs</span></a>
+      <a class="home-link" href="../">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/></svg>
+        Home
+      </a>
+    </div>
+  </header>
+
+  <!-- Policy Content -->
+  <main>
+    <article class="policy-card">
+
+      <header>
+        <h1>ArrowSolve - Privacy Policy</h1>
+        <div class="meta">
+          <p><strong>App:</strong> ArrowSolve</p>
+          <p><strong>Developer:</strong> Aashu_Labs</p>
+          <p><strong>Package:</strong> com.arrowsolve.game</p>
+          <p><strong>Effective date:</strong> 26 September 2026</p>
+          <p><strong>Contact:</strong> <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a></p>
+        </div>
+      </header>
+
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy describes the information practices of Aashu_Labs for the ArrowSolve mobile application.</p>
+
+      <h2>2. Advertising</h2>
+      <p>ArrowSolve uses Google AdMob to show banner, interstitial, and rewarded ads. The Google Mobile Ads SDK may process information such as your IP address, app interactions, diagnostic and performance information, and device or advertising identifiers where permitted. Google may use this information for advertising, analytics, fraud prevention, security, and related advertising services.</p>
+      <p>Where required by applicable law, ArrowSolve may display a Google consent message that allows users to review and manage their advertising privacy choices.</p>
+
+      <h2>3. User Accounts</h2>
+      <p>ArrowSolve does not require you to create an account.</p>
+
+      <h2>4. Personal Information</h2>
+      <p>ArrowSolve does not directly ask you for your name, phone number, contacts, photos, camera, microphone, or precise location. If you choose to contact support, your email app will prepare a message for you to review and send.</p>
+
+      <h2>5. Game Progress and Settings</h2>
+      <p>Game progress and settings may be stored locally on your device so that they remain available when you return to the game.</p>
+
+      <h2>6. Third-Party Services</h2>
+      <p>ArrowSolve uses Google AdMob. For more information about Google's practices, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">How Google uses information for advertising</a>.</p>
+
+      <h2>7. Children's Privacy</h2>
+      <p>Use of ArrowSolve is also subject to applicable platform and Google Play requirements. This policy may be updated based on the app's target-audience configuration and applicable requirements.</p>
+
+      <h2>8. Data Security</h2>
+      <p>Reasonable safeguards are used to protect information, but no method of electronic transmission or storage can guarantee absolute security.</p>
+
+      <h2>9. Changes to This Privacy Policy</h2>
+      <p>This policy may be updated. Please review it periodically for changes.</p>
+
+      <h2>10. Contact Us</h2>
+      <p>For privacy questions or support, email <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>.</p>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 Aashu_Labs</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../">&#8592; Back to Home</a>
+        <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
