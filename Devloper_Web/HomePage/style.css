@@ -2858,6 +2858,92 @@ p {
   box-shadow: 0 35px 70px rgba(16, 26, 64, 0.3), 0 8px 16px rgba(16, 26, 64, 0.18), inset 0 0 0 1px rgba(255,255,255,.13);
 }
 
+/* Keep every app screenshot fully visible in its own card. */
+.showcase-media {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 14px;
+  min-height: 545px;
+}
+
+.app-showcase .showcase-media figure,
+.app-showcase:hover .showcase-media figure {
+  position: relative;
+  inset: auto;
+  z-index: 1;
+  width: 100%;
+  max-width: 100%;
+  transform: none;
+}
+
+.showcase-media img { object-fit: contain; }
+
+.media-image-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.media-image-link:focus-visible {
+  outline: 3px solid var(--app-accent);
+  outline-offset: -5px;
+  border-radius: inherit;
+}
+
+.media-arrowsolve { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.app-showcase .media-arrowsolve .wide-screen-back {
+  grid-column: 1 / -1;
+  width: min(78%, 460px);
+  justify-self: center;
+}
+.app-showcase .media-arrowsolve .phone-screen { width: min(100%, 145px); }
+
+.media-pdf { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.app-showcase .media-pdf .wide-screen-back {
+  grid-column: 1 / -1;
+  width: min(78%, 460px);
+  justify-self: center;
+}
+.app-showcase .media-pdf .phone-screen { width: min(100%, 145px); }
+
+.media-playexa { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.app-showcase .media-playexa .wide-screen-back,
+.app-showcase .media-playexa .wide-screen-front,
+.app-showcase .media-playexa .wide-screen-extra { width: 100%; }
+.media-playexa .wide-screen-back { aspect-ratio: 1200 / 661; }
+.media-playexa .wide-screen-extra { aspect-ratio: 1100 / 639; }
+.app-showcase .media-playexa .phone-screen-one { width: min(48%, 145px); }
+
+@media (max-width: 900px) {
+  .showcase-media {
+    width: 100%;
+    max-width: 680px;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .showcase-media {
+    min-height: 0;
+    gap: 10px;
+  }
+
+  .app-showcase .media-arrowsolve .wide-screen-back,
+  .app-showcase .media-pdf .wide-screen-back { width: min(100%, 390px); }
+
+  .app-showcase .media-playexa .phone-screen-one { width: min(70%, 125px); }
+}
+
+@media (max-width: 480px) {
+  .media-arrowsolve { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .app-showcase .media-arrowsolve .phone-screen { width: min(100%, 125px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .showcase-media figure { transition: none; }
+}
+
 /* What we build */
 .build-section {
   position: relative;

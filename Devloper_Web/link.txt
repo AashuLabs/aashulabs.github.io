@@ -1,0 +1,22 @@
+AashuLabs Website Links
+
+Main Developer Website:
+https://aashulabs.github.io/Devloper_Web/HomePage/
+
+ArrowSolve Privacy Policy:
+https://aashulabs.github.io/Devloper_Web/ArrowSolve/
+
+PDF Privacy Policy:
+https://aashulabs.github.io/Devloper_Web/PDF/
+
+Playexa Privacy Policy:
+https://aashulabs.github.io/Devloper_Web/Playexa/
+
+Current app-ads.txt:
+https://aashulabs.github.io/Devloper_Web/app-ads.txt
+
+Recommended Root app-ads.txt URL for AdMob:
+https://aashulabs.github.io/app-ads.txt
+
+Support Email:
+ashulabs.support@gmail.com
