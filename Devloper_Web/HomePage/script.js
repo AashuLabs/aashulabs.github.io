@@ -181,7 +181,6 @@
   const banner = document.querySelector(".brand-banner");
   const floatingApps = [
     { element: document.querySelector(".floating-arrowsolve"), segmentDuration: 2.35 },
-    { element: document.querySelector(".floating-pdf"), segmentDuration: 1.95 },
     { element: document.querySelector(".floating-playexa"), segmentDuration: 1.6 },
   ].filter(({ element }) => element);
 

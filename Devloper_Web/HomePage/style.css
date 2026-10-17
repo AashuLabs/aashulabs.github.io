@@ -807,11 +807,6 @@ p {
   font-weight: 850;
 }
 
-.app-icon-pdf {
-  background: linear-gradient(145deg, #fff0f1, #ffe2e6);
-  color: #d94d61;
-}
-
 .app-icon-play {
   background: linear-gradient(145deg, #eeeaff, #ded7ff);
   color: #6e50c8;
@@ -1752,14 +1747,6 @@ p {
   transform: rotateY(13deg) rotateZ(-8deg) translateZ(45px);
 }
 
-.ecosystem-pdf {
-  right: 5%;
-  top: 10%;
-  width: 166px;
-  transform: rotateY(-12deg) rotateZ(7deg) translateZ(70px);
-  animation-delay: -2s;
-}
-
 .ecosystem-playexa {
   right: 12%;
   bottom: 5%;
@@ -1895,11 +1882,6 @@ p {
 .showcase-arrowsolve {
   --app-accent: #5a64e8;
   --app-accent-rgb: 90, 100, 232;
-}
-
-.showcase-pdf {
-  --app-accent: #4c7eea;
-  --app-accent-rgb: 76, 126, 234;
 }
 
 .showcase-playexa {
@@ -2410,12 +2392,6 @@ p {
     width: 100px;
   }
 
-  .ecosystem-pdf {
-    width: 112px;
-    right: 4%;
-    top: 8%;
-  }
-
   .ecosystem-arrow {
     left: 1%;
     top: 27%;
@@ -2770,8 +2746,7 @@ p {
 }
 
 .floating-arrowsolve { left: 15%; top: 72%; }
-.floating-pdf { left: 57%; top: 13%; }
-.floating-playexa { left: 87%; top: 72%; }
+.floating-playexa { left: 82%; top: 29%; }
 
 .hero-next {
   position: absolute;
@@ -2827,7 +2802,6 @@ p {
 }
 
 .showcase-arrowsolve::after,
-.showcase-pdf::after,
 .showcase-playexa::after {
   position: absolute;
   right: 4%;
@@ -2838,7 +2812,6 @@ p {
 }
 
 .showcase-arrowsolve::after { content: "↗ ↘"; }
-.showcase-pdf::after { content: "{ PDF }"; font-size: 3.1rem; }
 .showcase-playexa::after { content: "▶ ━━━━━"; font-size: 2.8rem; }
 
 .showcase-media figure::after {
@@ -2899,14 +2872,6 @@ p {
 }
 .app-showcase .media-arrowsolve .phone-screen { width: min(100%, 145px); }
 
-.media-pdf { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.app-showcase .media-pdf .wide-screen-back {
-  grid-column: 1 / -1;
-  width: min(78%, 460px);
-  justify-self: center;
-}
-.app-showcase .media-pdf .phone-screen { width: min(100%, 145px); }
-
 .media-playexa { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .app-showcase .media-playexa .wide-screen-back,
 .app-showcase .media-playexa .wide-screen-front,
@@ -2929,8 +2894,7 @@ p {
     gap: 10px;
   }
 
-  .app-showcase .media-arrowsolve .wide-screen-back,
-  .app-showcase .media-pdf .wide-screen-back { width: min(100%, 390px); }
+  .app-showcase .media-arrowsolve .wide-screen-back { width: min(100%, 390px); }
 
   .app-showcase .media-playexa .phone-screen-one { width: min(70%, 125px); }
 }
@@ -3264,7 +3228,6 @@ p {
 
   .apps-section { padding-top: 85px; }
   .showcase-arrowsolve::after,
-  .showcase-pdf::after,
   .showcase-playexa::after { font-size: 1.9rem; bottom: 0; opacity: .5; }
 
   .build-section { padding-block: 72px 78px; }
