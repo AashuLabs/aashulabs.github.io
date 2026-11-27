@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for FoxTileva, the Android tile-matching puzzle game by Aashu_Labs.">
+  <title>FoxTileva - Privacy Policy — Aashu_Labs</title>
+  <style>
+    /* ── Design Tokens (shared palette) ── */
+    :root {
+      --page:    #f0f4fa;
+      --card:    #ffffff;
+      --ink:     #172744;
+      --muted:   #53647d;
+      --subtle:  #8295ad;
+      --line:    #dce8f5;
+      --accent:  #2563eb;
+      --radius:  18px;
+      --shadow:  0 4px 24px rgba(37,99,235,.09);
+      --font:    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--page);
+      color: var(--ink);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); overflow-wrap: anywhere; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── Site Header ── */
+    .site-header {
+      background: rgba(255,255,255,.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--ink);
+      text-decoration: none;
+      letter-spacing: -.2px;
+    }
+    .brand span { color: var(--accent); }
+
+    .home-link {
+      font-size: .88rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: color .2s;
+    }
+    .home-link:hover { color: var(--accent); text-decoration: none; }
+
+    /* ── Main content card ── */
+    main {
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 0 16px 40px;
+    }
+
+    .policy-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(28px, 5vw, 52px);
+    }
+
+    /* ── Typography ── */
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 800;
+      color: var(--ink);
+      line-height: 1.2;
+      margin-bottom: 16px;
+      letter-spacing: -.4px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 32px 0 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    p { color: var(--muted); margin: 8px 0 14px; }
+
+    /* ── Meta info block ── */
+    .meta {
+      margin: 0 0 28px;
+      padding: 16px 18px;
+      background: #edf6ff;
+      border-radius: 12px;
+      border: 1px solid #bfdbfe;
+    }
+    .meta p { color: var(--ink); margin: 4px 0; font-size: .9rem; overflow-wrap: anywhere; }
+
+    /* ── Policy lists and notes ── */
+    ul {
+      margin: 8px 0 20px;
+      padding: 16px 18px 16px 40px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+    li { color: var(--muted); margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    .footer-note {
+      margin-top: 40px;
+      padding: 22px;
+      background: #f5f9ff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+
+    /* ── Sections ── */
+    section + section { margin-top: 4px; }
+
+    /* ── Footer ── */
+    .site-footer {
+      border-top: 1px solid var(--line);
+      background: var(--card);
+    }
+
+    .footer-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .footer-copy { font-size: .82rem; color: var(--subtle); }
+
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      font-size: .82rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      main { margin: 0; padding: 0 0 32px; }
+      .policy-card { border-radius: 0; border-left: 0; border-right: 0; box-shadow: none; }
+      .header-inner { padding: 0 16px; }
+      .footer-inner { padding: 16px; flex-direction: column; align-items: flex-start; }
+      ul { padding-left: 32px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../HomePage/">Aashu_<span>Labs</span></a>
+      <a class="home-link" href="../HomePage/">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/></svg>
+        Home
+      </a>
+    </div>
+  </header>
+
+  <!-- Policy Content -->
+  <main>
+    <article class="policy-card">
+
+      <header>
+        <h1>FoxTileva - Privacy Policy</h1>
+        <div class="meta">
+          <p><strong>App:</strong> FoxTileva</p>
+          <p><strong>Developer:</strong> Aashu_Labs</p>
+          <p><strong>Package:</strong> com.foxtileva.game</p>
+          <p><strong>Platform:</strong> Android / Google Play</p>
+          <p><strong>Effective date:</strong> 27 November 2026</p>
+          <p><strong>Contact:</strong> <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a></p>
+        </div>
+      </header>
+
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy explains how Aashu_Labs handles information in connection with FoxTileva, an Android tile-matching puzzle game. It describes gameplay information, local storage, advertising, support communications, data sharing, retention, and privacy choices. This policy applies to FoxTileva only.</p>
+
+      <h2>2. Game Progress and Local Storage</h2>
+      <p>FoxTileva does not require an Aashu_Labs account to play. The game may store the following information locally on your device:</p>
+      <ul>
+        <li>Current, unlocked, and completed levels, puzzle arrangements, and active gameplay state.</li>
+        <li>Virtual coins, booster inventory, earned rewards, and reward claim records.</li>
+        <li>Sound, music, and other gameplay preferences.</li>
+        <li>Recent gameplay sessions, play duration, level completions, failures, and restarts.</li>
+        <li>Recent advertising exposure, cooldowns, optional rewarded-ad outcomes, and local advertising preferences.</li>
+      </ul>
+      <p>This information supports saved progress, gameplay functionality, reward management, and appropriate advertisement timing. The local adaptive advertising system is designed to work without sending its player activity profile to an Aashu_Labs server. FoxTileva does not require a developer-operated cloud-save service or Firebase for this functionality.</p>
+
+      <h2>3. Personal Information and Support</h2>
+      <p>FoxTileva does not directly ask you for your name, phone number, contacts, photographs, payment-card details, or precise GPS location to play. The game does not require camera or microphone access for its core puzzle gameplay.</p>
+      <p>If you contact <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>, we receive your email address, message, and any information or attachments you voluntarily provide. We use this information to answer questions, resolve problems, and respond to privacy requests. Please avoid sending passwords or sensitive financial information.</p>
+
+      <h2>4. Device and Technical Information</h2>
+      <p>FoxTileva may check device capabilities, memory availability, application version, frame performance, and network connectivity to maintain compatibility, manage advertising resources, and support stable gameplay.</p>
+      <p>Google's advertising services may independently process technical and usage information, including advertising identifiers and an IP address that can indicate approximate geographic location. This does not mean the game requires access to your precise GPS location.</p>
+
+      <h2>5. Advertising</h2>
+      <p>FoxTileva is designed to be supported by Google AdMob advertisements when advertising is enabled. Interstitial advertisements may appear at suitable transitions between completed levels. Optional rewarded advertisements may offer an in-game benefit, such as continuing a failed level through the Revive feature.</p>
+      <p>Rewarded advertisements are voluntary. An eligible reward is provided when the advertising SDK confirms that the reward has been earned. Virtual coins, boosters, and continuation benefits are intended for use within FoxTileva and have no cash redemption value. Normal level progression does not require watching rewarded advertisements.</p>
+      <p>Advertisement availability depends on network conditions, device compatibility, consent choices, advertising inventory, and service restrictions. Core puzzle gameplay is designed to remain available when advertisements cannot be shown.</p>
+
+      <h2>6. Adaptive Advertising</h2>
+      <p>The game's local advertising system may consider gameplay activity, completed levels, play duration, recent failures, recent advertisement exposure, voluntary rewarded-ad outcomes, and device performance to determine suitable advertisement opportunities.</p>
+      <p>These records help manage cooldowns, limit interruptions, avoid repeated offers, and prevent duplicate reward claims. Optional rewarded advertisements may be offered less frequently when players do not use them. Technical failures or interrupted advertisement sessions are not automatically treated as deliberate rejection.</p>
+      <p>The system is not intended to infer sensitive personal characteristics, financial status, or a player's age from their behavior or device. Declining an optional advertisement does not remove previously earned rewards or completed progress.</p>
+
+      <h2>7. Google AdMob and Third-Party Data Processing</h2>
+      <p>When advertising is enabled, the Google Mobile Ads SDK and applicable advertising providers may collect and share information such as:</p>
+      <ul>
+        <li>IP address, which may be used to estimate approximate location.</li>
+        <li>App interactions, including app launches, taps, advertisement impressions, and video views.</li>
+        <li>Crash reports, performance measurements, and other diagnostic information.</li>
+        <li>Android Advertising ID, App Set ID, and other applicable device or account-related identifiers.</li>
+      </ul>
+      <p>Google and applicable advertising partners may process this information to deliver and measure advertisements, provide permitted personalization, perform analytics, prevent fraud, and maintain security. Their processing is subject to their own privacy practices and applicable requirements.</p>
+      <p>For more information, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>, and <a href="https://policies.google.com/technologies/ads">Google advertising and privacy information</a>.</p>
+      <p>FoxTileva is built using Unity and is intended for distribution through Google Play. Google Play and Android may independently process information for downloads, updates, device services, and security. The use of Unity does not by itself indicate that optional Unity analytics or advertising services are enabled. See the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">Unity Game Player and App User Privacy Policy</a> for applicable Unity practices.</p>
+
+      <h2>8. Consent and Advertising Privacy Choices</h2>
+      <p>Depending on your region, consent preferences, device settings, and applicable audience requirements, advertising may be personalized or non-personalized. Where required, advertising must be enabled only after the applicable consent requirements have been met.</p>
+      <p>Where available, you may manage your choices through the game's advertising privacy options, Android advertising settings, or <a href="https://myadcenter.google.com/">Google My Ad Center</a>. Depending on your Android version, you may also be able to reset or delete your advertising identifier. Limiting personalized advertising does not necessarily remove all advertisements.</p>
+
+      <h2>9. Offline Gameplay</h2>
+      <p>FoxTileva's core puzzle gameplay is designed to operate without an internet connection. Internet access may be needed to load advertisements, confirm rewarded-ad benefits, manage advertising consent, or open external support and privacy resources. If a connection is unavailable, advertising-related features may be temporarily unavailable.</p>
+
+      <h2>10. How Information Is Used and Shared</h2>
+      <p>Local gameplay information is used to retain progress, maintain settings, manage in-game rewards, support device compatibility, and regulate advertising interruptions. Support correspondence is used to respond to your requests.</p>
+      <p>Aashu_Labs does not directly sell local player profiles to data brokers. Google AdMob and applicable advertising partners may process and share advertising-related information as described above. Support information may be disclosed when required by law or when necessary to protect users, security, or legitimate legal rights, where permitted by law.</p>
+
+      <h2>11. Data Retention and Deletion</h2>
+      <p>Saved progress and preferences generally remain on your device until changed or removed. Recent gameplay activity and advertising history are retained locally for the periods needed for frequency controls and reward protection. Claim records may remain with saved progress to prevent duplicate rewards.</p>
+      <p>You can remove local app information by opening Android Settings, selecting Apps, choosing FoxTileva, and clearing its storage or app data. Uninstalling the game may also remove local saves. These actions can remove completed levels, virtual coins, boosters, and settings. Android backup or device transfer may retain or restore a copy depending on device and account settings.</p>
+      <p>Support correspondence may be retained as reasonably necessary to resolve your request and satisfy applicable legal or recordkeeping obligations. To request deletion of information held directly by Aashu_Labs, contact <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>. Information held independently by Google or other providers is subject to their own retention and deletion controls.</p>
+
+      <h2>12. Your Privacy Rights</h2>
+      <p>Depending on applicable law, you may have rights to access, correct, or delete personal information, withdraw consent, object to or restrict processing, and submit a complaint to the relevant authority. Contact us to exercise applicable rights concerning information we hold directly. Requests concerning information processed independently by Google may need to be submitted using Google's privacy controls.</p>
+
+      <h2>13. Children's Privacy</h2>
+      <p>FoxTileva does not require players to submit directly identifying personal information for core gameplay. Advertising and consent settings must be configured in accordance with the app's declared target audience, applicable children's privacy laws, and Google Play requirements. Where applicable, restrictions on personalized advertising and other safeguards for children must be applied.</p>
+      <p>Parents or guardians with questions or concerns about a child's information may contact us using the email address below.</p>
+
+      <h2>14. Data Security</h2>
+      <p>We take reasonable steps to safeguard information we handle, including support correspondence. Google states that information collected by its Mobile Ads SDK is encrypted in transit. However, no method of electronic transmission or storage can guarantee absolute security.</p>
+
+      <h2>15. International Processing and External Links</h2>
+      <p>Google, advertising partners, email providers, and other external services may process information in countries other than your own, subject to their policies and applicable safeguards. Advertisements or external links may direct you to services that Aashu_Labs does not operate. We encourage you to review their privacy policies before providing personal information.</p>
+
+      <h2>16. Changes to This Privacy Policy</h2>
+      <p>This policy may be updated when FoxTileva's features, SDKs, advertising services, data practices, or applicable requirements change. The effective date above will be updated when appropriate, and additional notice or consent will be provided where required.</p>
+
+      <h2>17. Contact Us</h2>
+      <p>For privacy questions, data deletion requests, or support related to FoxTileva, contact Aashu_Labs at <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>.</p>
+
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-copy">&copy; 2026 Aashu_Labs</span>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="../HomePage/">&#8592; Back to Home</a>
+        <a href="mailto:ashulabs.support@gmail.com">ashulabs.support@gmail.com</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
